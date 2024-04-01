@@ -1,0 +1,6 @@
+UPLOAD_SUCCESS = "File '{filename}' uploaded successfully."
+UPLOAD_ERROR = "Error uploading file '{filename}': {error}"
+DELETE_SUCCESS = "File '{filename}' deleted successfully."
+DELETE_ERROR = "Error deleting file '{filename}': {error}"
+HTTP_EXCEPTION_UPLOAD = "HTTPException while uploading file '{filename}': {detail}"
+HTTP_EXCEPTION_DELETE = "HTTPException while deleting file '{filename}': {detail}"
