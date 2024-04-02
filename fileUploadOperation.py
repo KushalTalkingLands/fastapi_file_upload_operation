@@ -64,4 +64,4 @@ def delete_file_from_s3(filename: str):
             }
     except Exception as e:
         logger.error(f"Error deleting file '{filename}' from bucket '{bucket_name}': {e}")
-        raise HTTPException(status_code=BAD_REQUEST, detail=str(e))
+        raise HTTPException(status_code=BAD_REQUEST, detail=str(e)) # Test for pycache not going
