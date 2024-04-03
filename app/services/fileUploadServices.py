@@ -2,9 +2,9 @@ import boto3
 import os
 from fastapi import UploadFile, HTTPException
 import logging
-from loggersConstants import UPLOAD_SUCCESS, UPLOAD_ERROR, DELETE_SUCCESS, DELETE_ERROR, HTTP_EXCEPTION_UPLOAD, HTTP_EXCEPTION_DELETE
+from app.core.constants.loggersConstants import UPLOAD_SUCCESS, UPLOAD_ERROR, DELETE_SUCCESS, DELETE_ERROR, HTTP_EXCEPTION_UPLOAD, HTTP_EXCEPTION_DELETE
 from dotenv import load_dotenv
-from httpStatusConstants import BAD_REQUEST
+from app.core.constants.httpStatusConstants import BAD_REQUEST
 load_dotenv()
 
 region_name = os.getenv("AWS_REGION_NAME")

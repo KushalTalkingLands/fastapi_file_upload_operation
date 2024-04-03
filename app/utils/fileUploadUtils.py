@@ -1,7 +1,7 @@
 import os
 from fastapi import HTTPException, UploadFile
 from dotenv import load_dotenv
-from appConstants import ENV_ACCEPTED_EXTENSIONS_NOT_FOUND, FILE_EMPTY
+from app.core.constants.appConstants import ENV_ACCEPTED_EXTENSIONS_NOT_FOUND, FILE_EMPTY
 # config = dotenv_values(".env")
 load_dotenv() 
 
